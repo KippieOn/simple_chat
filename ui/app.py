@@ -21,6 +21,10 @@ def index():
     return render_template("index.html")
 #############
 
+@app.route("/onboarding")
+def onboarding():
+    return render_template("index.html")
+
 '''
 Init seq2seq model
 
